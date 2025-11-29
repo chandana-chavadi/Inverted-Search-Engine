@@ -5,7 +5,7 @@ A modular C project that builds an inverted index from multiple text files, allo
 
 ## 🧠 Overview  
 The project creates a miniature search engine using an inverted index data structure:
-WORD → [List of files containing the word + occurrences in each file]
+- WORD → [List of files containing the word + occurrences in each file]
 
 Implementation uses:
 - A **linked list of filenames**
