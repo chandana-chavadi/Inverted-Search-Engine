@@ -43,11 +43,6 @@ word; file_count; filename; count; filename; count; #
 ### 5️⃣ Update Database  
 Rebuilds the database from **backup.txt**, reconstructing all mainnodes and subnodes.  
 
-### 6️⃣ Validation  
-- Checks `.txt` extension  
-- Checks file existence  
-- Checks non-empty  
-- Avoids duplicates  
 
 ---
 
@@ -58,14 +53,10 @@ Rebuilds the database from **backup.txt**, reconstructing all mainnodes and subn
 - File handling  
 - Dynamic memory allocation  
 - Word indexing  
-- Modular C design  
-- Persistent storage (backup.txt)  
 
 ---
 
 ## 💡 Future Scope  
-- Add stop-word removal  
-- Add case-insensitive search  
 - Support binary search trees instead of linked lists  
 - Add partial-word search (prefix search)  
 - Export index to JSON  
